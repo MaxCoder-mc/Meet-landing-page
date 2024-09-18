@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./queries.css" />
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body>
+    <main>
+      <img src="./assets/logo.svg" alt="" class="logo-img" />
+
+      <header class="hero">
+        <picture class="hero-left">
+          <source
+            class="hero-left-img"
+            media="(min-width: 864px)"
+            srcset="./assets/desktop/image-hero-left.png"
+          />
+          <img
+            class="hero-full-img"
+            src="./assets/tablet/image-hero.png"
+            alt=""
+          />
+        </picture>
+
+        <div class="hero-middle">
+          <h1 class="h-middle-title headline-1">
+            Group Chat<br />for Everyone
+          </h1>
+          <p class="paragraph-1">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="btns">
+            <a href="#" class="paragraph-2 btn cyan-btn">
+              Download <span class="cyan-span">v1.3</span>
+            </a>
+            <a href="#" class="paragraph-2 btn purple-btn">What is it?</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img
+            src="./assets/desktop/image-hero-right.png"
+            alt="group of people"
+            class="hero-right-img"
+          />
+        </div>
+      </header>
+
+      <section class="main-content-section">
+        <div class="shap">
+          <div class="line"></div>
+          <p class="circle paragraph-2">01</p>
+        </div>
+
+        <div class="meet-examples">
+          <img
+            src="./assets/desktop/image-woman-in-videocall.jpg"
+            alt="image of a woman in videocall"
+            class="example-image"
+          />
+          <img
+            src="./assets/desktop/image-women-videochatting.jpg"
+            alt="image of women videochatting"
+            class="example-image"
+          />
+          <img
+            src="./assets/desktop/image-men-in-meeting.jpg"
+            alt="image of men in meeting"
+            class="example-image"
+          />
+          <img
+            src="./assets/desktop/image-man-texting.jpg"
+            alt="image of a man texting"
+            class="example-image"
+          />
+        </div>
+
+        <div class="meet-content">
+          <span class="main-title headline-3">Built for modern use</span>
+          <h3 class="main-subtitle headline-2">
+            Smarter meetings, all in one place
+          </h3>
+          <p class="paragraph-1">
+            Send messages, share files, show your screen, and record your
+            meetings — all in one workspace. Control who can join with
+            invite-only team access, data encryption, and data export.
+          </p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="shap footer-shap">
+          <div class="line"></div>
+          <p class="circle paragraph-2">02</p>
+        </div>
+
+        <div class="footer-content">
+          <div class="container">
+            <h3 class="headline-2">Experience more together</h3>
+            <p class="paragraph-1">
+              Stay connected with reliable HD meetings and unlimited one-on-one
+              and group video sessions.
+            </p>
+            <a href="#" class="paragraph-2 btn purple-btn">
+              Download <span class="purple-span">v1.3</span>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

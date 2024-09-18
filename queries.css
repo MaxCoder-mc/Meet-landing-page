@@ -1,0 +1,175 @@
+/********************/
+/* Extra Large Screen (width > 1472px)
+/********************/
+
+@media (width > 92em) {
+  .hero {
+    overflow: visible;
+  }
+}
+
+/********************/
+/* Large Screen (width < 1312px)
+/********************/
+
+@media (width < 82em) {
+  .headline-1 {
+    font-size: 5.6rem;
+  }
+}
+
+/********************/
+/* Tablet Screen (width < 1200px)
+/********************/
+
+@media (width < 75em) {
+  .hero {
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+    gap: 2.4;
+  }
+}
+
+/********************/
+/* Tablet Screen (width < 1000px)
+/********************/
+
+@media (width < 62.5em) {
+  * {
+    font-size: 56%;
+  }
+  .hero {
+    gap: 1.6rem;
+  }
+
+  .meet-examples {
+    gap: 2.4rem;
+  }
+
+  .container {
+    gap: 1.4rem;
+  }
+}
+
+/********************/
+/* Tablet Screen (width < 864px)
+/********************/
+/*--TABLET--
+- 48-110 / 36-110 / 16-150 / 14-110
+*/
+@media (width < 54em) {
+  .headline-1 {
+    font-size: 4.8rem;
+    line-height: 1.1;
+  }
+
+  .headline-2 {
+    font-size: 3.6rem;
+  }
+
+  .headline-3 {
+    font-size: 1.6rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .paragraph-1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  .paragraph-2 {
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 1.5;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 7.2rem;
+  }
+  .hero-right {
+    display: none;
+  }
+
+  .hero-left {
+    left: -5%;
+    right: -5%;
+  }
+  .hero-full-img {
+    max-width: 110%;
+    width: 110%;
+  }
+
+  .hero-middle {
+    width: 55%;
+  }
+
+  .meet-examples {
+    margin: 5.6rem 3.2rem 6.4rem 3.2rem;
+  }
+  .example-image {
+    border-radius: 5px;
+  }
+
+  .container {
+    padding: 6.4rem 3.2rem;
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+}
+
+/********************/
+/* Mobile Screen (width < 576px)
+/********************/
+/*--MOBILE--
+- 44-110 / 32-110 / 12-110
+*/
+@media (width < 36em) {
+  .headline-1 {
+    font-size: 4.4rem;
+  }
+
+  .headline-2 {
+    font-size: 3.2rem;
+  }
+
+  .headline-3 {
+    font-size: 1.2rem;
+  }
+
+  .paragraph-2 {
+    font-size: 1.2rem;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+  .hero-middle {
+    width: 100%;
+    padding-inline: 3.2rem;
+  }
+
+  .main-content-section {
+    padding-inline: 3.2rem;
+  }
+  .meet-examples {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+  }
+  .example-image {
+    border-radius: 5px;
+  }
+
+  .meet-content {
+    padding-inline: 1.6rem;
+  }
+}
